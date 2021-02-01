@@ -23,6 +23,12 @@ Running `htop` requires `ncurses` libraries (typically named libncursesw*).
 
 For more information and details on how to contribute to `htop` visit [htop.dev](https://htop.dev).
 
+## Changes
+
+`htop` modified to show temperature and CPU frequency on Raspberry Pi boards.
+
+Ported to 3.0.5 from [wbenny/htop](https://github.com/wbenny/htop) modifications for 2.0.2.
+
 ## Build instructions
 
 This program is distributed as a standard GNU autotools-based package.
