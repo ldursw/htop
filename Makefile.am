@@ -145,6 +145,7 @@ linux_platform_headers = \
 if HTOP_LINUX
 AM_LDFLAGS += -rdynamic
 myhtopplatsources = \
+	linux/CPUFreqMeter.c \
 	linux/CPUTempMeter.c \
 	linux/IOPriorityPanel.c \
 	linux/LibSensors.c \

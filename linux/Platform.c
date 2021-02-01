@@ -27,6 +27,7 @@ in the source distribution for its full text.
 #include "ClockMeter.h"
 #include "Compat.h"
 #include "CPUMeter.h"
+#include "CPUFreqMeter.h"
 #include "CPUTempMeter.h"
 #include "DateMeter.h"
 #include "DateTimeMeter.h"
@@ -156,6 +157,7 @@ void Platform_setBindings(Htop_Action* keys) {
 
 const MeterClass* const Platform_meterTypes[] = {
    &CPUMeter_class,
+   &CPUFreqMeter_class,
    &CPUTempMeter_class,
    &ClockMeter_class,
    &DateMeter_class,
